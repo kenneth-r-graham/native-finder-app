@@ -1,6 +1,6 @@
 {
-  "name": "Native Finder",
-  "short_name": "Native Finder",
+  "name": "Native",
+  "short_name": "Native",
   "description": "Read and watch native Korean at your level, with every word one tap away.",
   "start_url": "./#discover",
   "scope": "./",
