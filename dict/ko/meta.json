@@ -1,0 +1,39 @@
+{
+ "source": "한국어기초사전 (Korean Learners' Dictionary), National Institute of Korean Language",
+ "source_url": "https://krdict.korean.go.kr",
+ "source_date": "20261019",
+ "license": "CC BY-SA 2.0 KR",
+ "license_url": "https://creativecommons.org/licenses/by-sa/2.0/kr/",
+ "notice": "Converted and reformatted; definitions unchanged. Distributed under the same license.",
+ "entries": 56555,
+ "shards": 256,
+ "hash": "fnv1a32(utf8(key)) % shards, 2 hex digits",
+ "languages": [
+  "ar",
+  "en",
+  "es",
+  "fr",
+  "id",
+  "ja",
+  "mn",
+  "ru",
+  "th",
+  "vi",
+  "zh"
+ ],
+ "sizes_bytes": {
+  "core": 8433954,
+  "forms": 412417,
+  "trans/en": 2926474,
+  "trans/ja": 3460537,
+  "trans/fr": 3395951,
+  "trans/es": 3140757,
+  "trans/ar": 2908356,
+  "trans/mn": 3254807,
+  "trans/vi": 3200456,
+  "trans/th": 4124749,
+  "trans/id": 2811432,
+  "trans/ru": 3713298,
+  "trans/zh": 2820038
+ }
+}

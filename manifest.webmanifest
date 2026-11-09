@@ -1,0 +1,15 @@
+{
+  "name": "Native Finder",
+  "short_name": "Native Finder",
+  "description": "Read and watch native Korean at your level, with every word one tap away.",
+  "start_url": "./#discover",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0f1012",
+  "theme_color": "#2f6f4f",
+  "icons": [
+    { "src": "icon/192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon/512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon/512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

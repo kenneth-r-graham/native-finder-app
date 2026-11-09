@@ -1,0 +1,96 @@
+{
+  "lang": "ko",
+  "note": "Original passages written for Native Finder's level check (not taken from any source). Two per level so a retake gets different ones.",
+  "script": [
+    { "q": "가", "a": "ga", "x": ["na", "ka", "go"] },
+    { "q": "나무", "a": "namu", "x": ["mana", "nabu", "lamo"] },
+    { "q": "엄마", "a": "eomma", "x": ["appa", "omna", "imma"] },
+    { "q": "사랑", "a": "sarang", "x": ["salam", "jarang", "sanang"] },
+    { "q": "김치", "a": "gimchi", "x": ["kimbap", "gamja", "gimje"] },
+    { "q": "학교", "a": "hakgyo", "x": ["hakgwa", "hangul", "haksaeng"] },
+    { "q": "커피", "a": "keopi", "x": ["kopi", "topi", "keoba"] },
+    { "q": "한국", "a": "hanguk", "x": ["hangul", "hanbok", "jungguk"] }
+  ],
+  "passages": [
+    {
+      "id": "1a", "level": 1,
+      "text": "저는 민수예요. 학생이에요. 저는 서울에 살아요. 아침에 빵을 먹어요. 그리고 우유를 마셔요. 학교에 버스로 가요. 친구가 많아요.",
+      "questions": [
+        { "q": "What does Minsu eat in the morning?", "a": "Bread", "x": ["Rice", "Fruit", "Nothing"] },
+        { "q": "How does Minsu get to school?", "a": "By bus", "x": ["On foot", "By subway", "By bike"] }
+      ]
+    },
+    {
+      "id": "1b", "level": 1,
+      "text": "오늘은 토요일이에요. 날씨가 좋아요. 지수는 공원에 가요. 공원에 개가 있어요. 개가 아주 작아요. 지수는 개를 좋아해요.",
+      "questions": [
+        { "q": "What day is it?", "a": "Saturday", "x": ["Sunday", "Monday", "Friday"] },
+        { "q": "What is the dog like?", "a": "Very small", "x": ["Very big", "Asleep", "Scared"] }
+      ]
+    },
+    {
+      "id": "2a", "level": 2,
+      "text": "어제는 비가 와서 집에 있었어요. 아침에 늦게 일어나서 커피를 마시고 책을 읽었어요. 점심에는 동생하고 라면을 끓여 먹었어요. 오후에는 친구한테서 전화가 왔어요. 친구는 다음 주에 같이 영화를 보자고 했어요. 저는 좋다고 대답했어요.",
+      "questions": [
+        { "q": "Why did the writer stay at home?", "a": "It was raining", "x": ["They were sick", "They had to work", "A friend came over"] },
+        { "q": "What are they going to do next week?", "a": "See a film with a friend", "x": ["Cook ramyeon together", "Read a book", "Go shopping"] }
+      ]
+    },
+    {
+      "id": "2b", "level": 2,
+      "text": "저는 매일 아침 일곱 시에 일어나요. 세수를 하고 옷을 입은 다음에 지하철역까지 걸어가요. 회사는 집에서 멀지 않아서 삼십 분쯤 걸려요. 점심은 보통 회사 근처 식당에서 동료들과 같이 먹어요. 퇴근한 후에는 운동을 하거나 요리를 해요. 주말에는 부모님 댁에 가요.",
+      "questions": [
+        { "q": "How long does the trip to work take?", "a": "About 30 minutes", "x": ["About an hour", "About 10 minutes", "Two hours"] },
+        { "q": "What does the writer do at weekends?", "a": "Visits their parents", "x": ["Goes to the gym", "Works", "Eats with colleagues"] }
+      ]
+    },
+    {
+      "id": "3a", "level": 3,
+      "text": "지난달에 처음으로 혼자 제주도 여행을 갔다. 원래는 친구와 같이 가기로 했는데 친구에게 갑자기 일이 생겨서 못 가게 되었다. 혼자 가면 심심할 줄 알았는데 생각보다 훨씬 재미있었다. 가고 싶은 곳에 마음대로 갈 수 있었고, 게스트하우스에서 만난 사람들과 이야기를 나누면서 새로운 친구도 사귀었다. 다음에는 일부러라도 혼자 여행을 떠나 보고 싶다.",
+      "questions": [
+        { "q": "Why did the writer travel alone?", "a": "Something suddenly came up for their friend", "x": ["They planned to go alone from the start", "They couldn't find a ticket for two", "Their friend didn't like Jeju"] },
+        { "q": "How was the trip?", "a": "Much more fun than expected", "x": ["As boring as they feared", "Lonely", "Too expensive"] }
+      ]
+    },
+    {
+      "id": "3b", "level": 3,
+      "text": "우리 동네에 작은 빵집이 새로 생겼다. 주인 아주머니는 매일 새벽 네 시에 나와서 빵을 굽는다고 한다. 가격은 다른 빵집보다 조금 비싸지만 재료가 좋아서 그런지 맛이 정말 다르다. 그래서 문을 연 지 한 달밖에 안 됐는데도 아침마다 줄이 길게 서 있다. 나도 출근하기 전에 들러서 식빵을 사 가곤 한다.",
+      "questions": [
+        { "q": "Why are there long queues every morning?", "a": "The bread tastes really different", "x": ["It is cheaper than other bakeries", "It is the only bakery nearby", "It gives bread away"] },
+        { "q": "When does the writer stop by?", "a": "Before going to work", "x": ["After work", "Only at weekends", "At four in the morning"] }
+      ]
+    },
+    {
+      "id": "4a", "level": 4,
+      "text": "요즘 많은 직장인들이 점심시간을 이용해 운동을 하거나 외국어를 배운다. 퇴근 후에는 야근이나 회식 때문에 시간을 내기 어렵기 때문이다. 이런 사람들을 겨냥해 회사가 밀집한 지역에는 삼십 분짜리 짧은 수업을 제공하는 학원과 헬스장이 늘고 있다. 전문가들은 짧은 시간이라도 꾸준히 투자하는 습관이 장기적으로 큰 차이를 만든다고 강조한다. 다만 점심을 거르거나 급하게 먹게 되면 오히려 건강을 해칠 수 있으니 주의해야 한다고 덧붙였다.",
+      "questions": [
+        { "q": "Why do office workers use their lunch break?", "a": "It is hard to find time after work", "x": ["Lunch is short anyway", "Their companies require it", "Gyms close in the evening"] },
+        { "q": "What do the experts warn about?", "a": "Skipping or rushing lunch can harm your health", "x": ["Short classes don't help", "Language schools are too expensive", "Exercising at noon is dangerous"] }
+      ]
+    },
+    {
+      "id": "4b", "level": 4,
+      "text": "최근 일회용 컵 사용을 줄이기 위해 개인 컵을 가져오는 손님에게 할인을 해 주는 카페가 많아졌다. 처음에는 귀찮다는 반응도 있었지만 환경 문제에 대한 관심이 높아지면서 텀블러를 들고 다니는 사람이 눈에 띄게 늘었다. 하지만 텀블러를 자주 새로 사면 오히려 일회용 컵보다 환경에 더 큰 부담을 줄 수 있다는 지적도 나온다. 하나를 오래 쓰는 것이 무엇보다 중요하다는 것이다.",
+      "questions": [
+        { "q": "What do many cafés now offer?", "a": "A discount for bringing your own cup", "x": ["Free tumblers", "Paper straws", "Free refills"] },
+        { "q": "What criticism does the text mention?", "a": "Often buying new tumblers can be worse for the environment", "x": ["Tumblers are unhygienic", "The discounts are too small", "Cafés lose money on it"] }
+      ]
+    },
+    {
+      "id": "5a", "level": 5,
+      "text": "인공지능 번역기의 성능이 비약적으로 향상되면서 외국어 학습이 더 이상 필요 없다는 주장이 심심치 않게 들린다. 그러나 언어는 단순히 정보를 전달하는 도구에 그치지 않는다. 한 언어에는 그 사회가 오랜 세월 축적해 온 사고방식과 정서가 고스란히 배어 있어, 이를 직접 체득하지 않고서는 미묘한 뉘앙스나 행간의 의미를 온전히 이해하기 어렵다. 번역기가 편리한 수단임은 분명하지만, 타인과 깊이 있는 관계를 맺고자 한다면 결국 그들의 언어로 소통하려는 노력이 뒷받침되어야 한다.",
+      "questions": [
+        { "q": "What is the writer's position?", "a": "Translators help, but deep relationships still need the other person's language", "x": ["Learning languages is no longer necessary", "Machine translators are useless", "Only experts need foreign languages"] },
+        { "q": "Besides information, what does a language carry, according to the text?", "a": "A society's ways of thinking and feeling", "x": ["Only grammar rules", "Technical vocabulary", "Historical dates"] }
+      ]
+    },
+    {
+      "id": "5b", "level": 5,
+      "text": "조선 후기에 이르러 상업이 발달하자 한양을 중심으로 도시 문화가 꽃피기 시작했다. 장시가 전국 곳곳에 들어서고 화폐의 유통이 활발해지면서 경제적 여유를 갖게 된 중인과 상인 계층이 새로운 문화의 향유층으로 떠올랐다. 이들은 판소리나 한글 소설처럼 서민의 삶과 감정을 생생하게 그려 낸 예술을 즐겼으며, 이는 양반 중심의 엄격한 문화 질서에 서서히 균열을 일으키는 계기가 되었다.",
+      "questions": [
+        { "q": "Who became the new audience for culture?", "a": "The middle class (jungin) and merchants", "x": ["The royal family", "Farmers in the countryside", "Foreign traders"] },
+        { "q": "What did this lead to?", "a": "Cracks in the strict yangban-centred cultural order", "x": ["The end of trade in Hanyang", "A ban on pansori", "The capital moving away from Hanyang"] }
+      ]
+    }
+  ]
+}
