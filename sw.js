@@ -20,7 +20,8 @@ const data = (path) => /\/(dict|kiwi|ocr|ort|levelcheck)\//.test(path);
 
 self.addEventListener('fetch', (e) => {
   const url = new URL(e.request.url);
-  if (e.request.method !== 'GET' || url.origin !== self.location.origin) return;
+  // The Android app's update file and APK (web/app-update.ts): always from the network, never kept.
+  if (e.request.method !== 'GET' || url.origin !== self.location.origin || url.pathname.includes('/android/')) return;
   e.respondWith((async () => {
     const cache = await caches.open(data(url.pathname) ? DATA : CACHE);
     if (fresh(url.pathname) || e.request.mode === 'navigate') {
