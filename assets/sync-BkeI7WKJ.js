@@ -1,0 +1,1 @@
+export{s as startPageSync}from"./sync-qH_22M-a.js";
