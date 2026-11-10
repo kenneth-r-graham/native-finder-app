@@ -1,0 +1,30 @@
+{
+ "sources": [
+  {
+   "name": "표준국어대사전 (Standard Korean Language Dictionary), National Institute of Korean Language",
+   "url": "https://stdict.korean.go.kr",
+   "date": "20261106 01:03:37",
+   "words": 243742
+  },
+  {
+   "name": "우리말샘 (Urimalsaem), National Institute of Korean Language",
+   "url": "https://opendict.korean.go.kr",
+   "date": "20261103025716",
+   "words": 457747
+  }
+ ],
+ "license": "CC BY-SA 2.0 KR",
+ "license_url": "https://creativecommons.org/licenses/by-sa/2.0/kr/",
+ "notice": "Converted and reformatted; a selection of entries, definitions unchanged; examples quoted from published works left out. Distributed under the same licence.",
+ "words": 457750,
+ "entries": 569851,
+ "shards": {
+  "heads": 256,
+  "entries": 4096
+ },
+ "hash": "fnv1a32(utf8(headword)) % shards; heads 2 hex digits, entries 3",
+ "sizes_bytes": {
+  "heads": 2693271,
+  "entries": 48602495
+ }
+}

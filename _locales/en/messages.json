@@ -131,6 +131,7 @@
   "setKeysPress": { "message": "Press a key…" },
   "setKeysReset": { "message": "Reset to defaults" },
   "cardSaidHere": { "message": "pronounced here" },
+  "cardKoreanOnly": { "message": "Korean definitions only: this word is not in the learner’s dictionary" },
   "appImportFile": { "message": "Import a file…" },
   "appImportTypes": { "message": "EPUB, DOCX, TXT, HTML, SRT, VTT" },
   "appImporting": { "message": "Importing" },
