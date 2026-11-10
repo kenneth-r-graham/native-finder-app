@@ -134,6 +134,10 @@
   "appTimeline": { "message": "페이지 보기" },
   "appTimelineClose": { "message": "페이지로 돌아가기" },
   "appTimelineSlider": { "message": "책 전체" },
+  "appPageTurn": { "message": "페이지 넘김" },
+  "appTurnFlip": { "message": "종이처럼 넘기기" },
+  "appTurnSlide": { "message": "밀어 넘기기" },
+  "appTurnNone": { "message": "없음" },
   "appPageSlider": { "message": "페이지" },
   "appShowControls": { "message": "메뉴 보기" },
   "appFontOriginal": { "message": "원래 글꼴" },
@@ -303,7 +307,8 @@
   "vidPlay": { "message": "여기서 재생" },
   "vidViews": { "message": "회" },
   "vidConnect": { "message": "영상 서버에 연결" },
-  "vidConnectHelp": { "message": "영상은 우리 영상 서버(테스트 중에는 이 PC)에서 가져와요. Native Finder가 서버에 접근하도록 허용해 주세요:" },
+  "vidConnectHelp": { "message": "영상은 우리 영상 서버(테스트 중에는 이 PC)에서 가져와요. Native Finder가 서버에 접근하도록 허용해 주세요:" }
+,
   "cmdReadScreen": { "message": "화면의 글자 읽기" },
   "popupReadScreen": { "message": "화면 글자 읽기 (R)" },
   "menuReadImage": { "message": "이 이미지의 글자 읽기 (Shift+오른쪽 클릭)" },

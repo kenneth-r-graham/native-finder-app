@@ -134,6 +134,10 @@
   "appTimeline": { "message": "Pages" },
   "appTimelineClose": { "message": "Back to the page" },
   "appTimelineSlider": { "message": "Whole book" },
+  "appPageTurn": { "message": "Page turn" },
+  "appTurnFlip": { "message": "Turn over, like paper" },
+  "appTurnSlide": { "message": "Slide" },
+  "appTurnNone": { "message": "None" },
   "appPageSlider": { "message": "Page" },
   "appShowControls": { "message": "Show controls" },
   "appFontOriginal": { "message": "Original" },
@@ -303,7 +307,8 @@
   "vidPlay": { "message": "Play here" },
   "vidViews": { "message": "views" },
   "vidConnect": { "message": "Connect to the video server" },
-  "vidConnectHelp": { "message": "Videos come from our video server (on this PC while testing). Allow Native Finder to reach it:" },
+  "vidConnectHelp": { "message": "Videos come from our video server (on this PC while testing). Allow Native Finder to reach it:" }
+,
   "cmdReadScreen": { "message": "Read the text on screen" },
   "popupReadScreen": { "message": "Read text on screen (R)" },
   "menuReadImage": { "message": "Read text in this image (Shift+right-click)" },
