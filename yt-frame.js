@@ -7,6 +7,7 @@
   position: fixed; z-index: 2147483647; max-width: 400px; max-height: 60vh; overflow: auto;
   background: var(--bg); color: var(--fg); border: 1px solid var(--line); border-radius: 10px;
   box-shadow: 0 8px 28px rgba(0,0,0,.18); padding: 12px 14px; font: 14px/1.45 system-ui, sans-serif;
+  --pad-top: 12px;
 }
 /* Dark: the system's choice unless Light is picked in Settings, or always when Dark is. */
 @media (prefers-color-scheme: dark) {
@@ -19,6 +20,7 @@
 .card.sheet {
   left: 0 !important; right: 0; top: auto !important; bottom: 0; max-width: none; max-height: 52vh; border-radius: 14px 14px 0 0;
   border-bottom: none; padding: 8px 16px calc(12px + env(safe-area-inset-bottom)); box-shadow: 0 -6px 24px rgba(0,0,0,.25);
+  --pad-top: 8px;
 }
 .card.sheet::before { content: ''; display: block; width: 36px; height: 4px; border-radius: 2px; background: var(--line); margin: 0 auto 8px; }
 .head { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
@@ -59,10 +61,12 @@ li { margin: 4px 0; }
 details { margin-top: 2px; }
 summary { cursor: pointer; color: var(--muted); font-size: 11px; }
 details div { margin-top: 2px; }
-/* At the top, and stays in view while the definitions scroll. */
+/* At the top, and stays in view while the definitions scroll: stuck to the card's very top edge (over its padding),
+   so no text shows above the buttons. */
 .status {
   display: flex; gap: 4px; margin: -6px 0 8px; padding: 6px 0 8px; border-bottom: 1px solid var(--line);
-  position: sticky; top: 0; z-index: 1; background: var(--bg);
+  position: sticky; top: calc(-1 * var(--pad-top, 12px)); z-index: 1; background: var(--bg);
+  box-shadow: 0 calc(-1 * var(--pad-top, 12px)) 0 var(--bg);
 }
 .tabs:has(+ .status) { border-bottom: none; padding-bottom: 0; }
 .status button {
