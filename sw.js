@@ -26,7 +26,11 @@ self.addEventListener('fetch', (e) => {
     const cache = await caches.open(data(url.pathname) ? DATA : CACHE);
     if (fresh(url.pathname) || e.request.mode === 'navigate') {
       try {
-        const res = await fetch(e.request);
+        // Asked of the server each time (GitHub Pages lets browsers reuse a page for 10 minutes, so a release would
+        // wait that long). A page load's own request can't be changed: its address is fetched instead.
+        const res = await (e.request.mode === 'navigate'
+          ? fetch(url.href, { cache: 'no-cache', credentials: 'same-origin' })
+          : fetch(e.request, { cache: 'no-cache' }));
         if (res.ok) void cache.put(e.request, res.clone());
         return res;
       } catch {
