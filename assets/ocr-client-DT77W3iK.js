@@ -1,0 +1,1 @@
+var e=null,t=0,n=new Map;function r(r){e||(e=new Worker(new URL(new URL(`ocr-DEdz4G-1.js`,import.meta.url).href,``+import.meta.url),{type:`module`}),e.onmessage=e=>{n.get(e.data.id)?.(e.data.res),n.delete(e.data.id)});let i=t++;return new Promise(t=>{n.set(i,t),e.postMessage({id:i,req:r},r.bitmap?[r.bitmap]:[])})}export{r as t};
