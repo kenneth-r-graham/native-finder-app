@@ -1,0 +1,1 @@
+var e=[{code:`ko`,name:`한국어`,english:`Korean`,ready:!0},{code:`ja`,name:`日本語`,english:`Japanese`,ready:!1},{code:`es`,name:`Español`,english:`Spanish`,ready:!1},{code:`fr`,name:`Français`,english:`French`,ready:!1}],t=t=>e.some(e=>e.code===t&&e.ready),n=/[가-힣]/g,r=/[぀-ヿ]/g;function i(e){return{ko:e.match(n)?.length??0,ja:e.match(r)?.length??0}}export{i as n,t as r,e as t};
