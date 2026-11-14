@@ -1,1 +1,0 @@
-export{s as startPageSync}from"./sync-DTa9IC4a.js";
