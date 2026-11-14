@@ -91,6 +91,7 @@
   "deskKeys": { "message": "Desktop app hotkeys" },
   "deskKeyOverlay": { "message": "Open or close the overlay (the app over a game; Esc also closes it)" },
   "deskKeyGrab": { "message": "Grab an area of the screen to read (subtitles): it stays until the next grab" },
+  "deskKeyGrabToggle": { "message": "Turn the grabbed area off or on again" },
   "deskKeyShot": { "message": "Screenshot into the Library" },
   "deskKeyPress": { "message": "Press the keys… (Esc: cancel)" },
   "deskKeyTaken": { "message": "Couldn’t use this one (another app may have it): choose another." },
