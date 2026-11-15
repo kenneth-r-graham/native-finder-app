@@ -428,7 +428,7 @@
   "vidConnectHelp": { "message": "영상은 우리 영상 서버(테스트 중에는 이 PC)에서 가져와요. Native Finder가 서버에 접근하도록 허용해 주세요:" }
 ,
   "cmdReadScreen": { "message": "화면의 글자 읽기" },
-  "popupReadScreen": { "message": "화면 글자 읽기 (R)" },
+  "popupReadScreen": { "message": "화면 글자 읽기 ({key})" },
   "menuReadImage": { "message": "이 이미지의 글자 읽기 (Shift+오른쪽 클릭)" },
   "menuLookup": { "message": "“%s” 찾아보기" },
   "menuReadScreen": { "message": "화면 글자 읽기 (R)" },

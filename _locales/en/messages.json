@@ -375,7 +375,7 @@
   "vidConnectHelp": { "message": "Videos come from our video server (on this PC while testing). Allow Native Finder to reach it:" }
 ,
   "cmdReadScreen": { "message": "Read the text on screen" },
-  "popupReadScreen": { "message": "Read text on screen (R)" },
+  "popupReadScreen": { "message": "Read text on screen ({key})" },
   "menuReadImage": { "message": "Read text in this image (Shift+right-click)" },
   "menuLookup": { "message": "Look up “%s”" },
   "menuReadScreen": { "message": "Read text on screen (R)" },
