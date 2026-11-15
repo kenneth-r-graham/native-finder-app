@@ -4,6 +4,7 @@
   "popupDetected": { "message": "Detected on this page" },
   "popupNothing": { "message": "No supported language found on this page." },
   "popupHint": { "message": "Point at a Korean word and press Shift to look it up. Press Shift again to close." },
+  "popupSwitchTo": { "message": "Switch to {lang} for this page" },
   "popupDefLang": { "message": "Definitions in" },
   "langKo": { "message": "Korean" },
   "langJa": { "message": "Japanese" },

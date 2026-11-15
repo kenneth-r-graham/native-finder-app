@@ -4,6 +4,7 @@
   "popupDetected": { "message": "이 페이지에서 감지됨" },
   "popupNothing": { "message": "이 페이지에서 지원되는 언어를 찾지 못했습니다." },
   "popupHint": { "message": "한국어 단어에 마우스를 올리고 Shift를 누르면 뜻을 볼 수 있어요. 다시 누르면 닫혀요." },
+  "popupSwitchTo": { "message": "이 페이지는 {lang}(으)로 바꾸기" },
   "popupDefLang": { "message": "뜻풀이 언어" },
   "langKo": { "message": "한국어" },
   "langJa": { "message": "일본어" },

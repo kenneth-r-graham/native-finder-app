@@ -1,1 +1,0 @@
-export{s as startPageSync}from"./sync-DcoyFJM7.js";

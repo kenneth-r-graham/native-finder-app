@@ -1,0 +1,1 @@
+export{s as startPageSync}from"./sync-o-Pz37pn.js";
